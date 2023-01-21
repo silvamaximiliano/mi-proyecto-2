@@ -1,0 +1,18 @@
+section{
+    color: $colorbarra;
+    justify-content: center;
+    align-items: center;
+
+    &.container{
+    background-color: $colorfondo;
+    color: black;
+}
+}
+.btn{
+    background-color: $colorfondo;
+}
+.btn:hover{
+    background-color: black;
+    color: $colorbarra;
+    border: 6px solid $colorbarra;
+}

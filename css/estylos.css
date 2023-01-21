@@ -1,0 +1,57 @@
+* {
+  margin: 2;
+  padding: 0;
+  box-sizing: border-box;
+}
+*::selection {
+  background-color: black;
+  color: red;
+}
+
+body {
+  background-color: rgb(204, 63, 63);
+}
+
+nav {
+  background-color: rgb(253, 252, 252);
+  color: rgb(58, 69, 233);
+}
+
+.imagenprincipal {
+  height: 80vh;
+  background-image: url("/img/fondo1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-inline: 200px;
+}
+
+section {
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+section.container {
+  background-color: rgb(204, 63, 63);
+  color: black;
+}
+
+.btn {
+  background-color: rgb(204, 63, 63);
+}
+
+.btn:hover {
+  background-color: black;
+  color: white;
+  border: 6px solid white;
+}
+
+.container {
+  background-color: black;
+}
+
+/*# sourceMappingURL=estylos.css.map */
